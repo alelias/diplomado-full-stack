@@ -1,0 +1,43 @@
+.contenedor{
+    border:0px solid #aaa;
+	background-color: #dddddd;
+	margin:0 auto;
+	width: 600px;
+	height: 600px;
+    position: relative;
+}
+
+.item1{
+    position:absolute;
+    border:0px solid black;
+    background-color: red;
+    margin:0 auto;
+    width: 200px;
+	height: 200px;
+    top: 0px;
+    left: 400px;
+
+}
+
+.item2{
+    position:absolute;
+    border:0px solid black;
+    background-color: blue;
+    margin:0 auto;
+    width: 200px;
+	height: 200px;
+    bottom: 200px;
+    left: 400px;
+   
+}
+
+.item3{
+    position:absolute;
+    border:0px solid black;
+    background-color: green;
+    margin:0 auto;
+    width: 200px;
+	height: 200px;
+    left: 400px;
+    bottom: 0px;
+}
