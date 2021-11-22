@@ -1,0 +1,140 @@
+
+.presentacion{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #85c1e9;
+}
+
+.presentacion .centro2{
+    width: 850px;
+    margin: auto;
+}
+
+.presentacion .centro2 .izquierda{
+    width: 300px;
+    border: 0px solid;
+    float: left;
+    margin-top: 70px;
+}
+
+.presentacion .centro2 .izquierda h2{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.presentacion .centro2 .derecha{
+    width: 490px;
+    height: auto;
+    float: right;
+} 
+
+.descripcion{
+    color: #ebf5fb;
+    text-align: left;
+    font-size: 18px;
+}
+
+.img{
+    width: 470px;
+    height: 260px;
+    border: 3px solid #2e86c1;
+    margin: 20px 0px;
+    float: right;
+}
+
+.boton{
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 50px;
+}
+
+.boton:hover{
+    background: #e6e6e6;
+    color: #2874a6;
+}
+
+.contenidos{
+    background: #f2f2f2;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.contenidos .centro3{
+    width: 850px;
+    margin: auto;
+    border: 0px solid;
+    height: auto;
+    overflow: hidden;
+}
+
+.contenidos .centro3 .izquierda{
+    width: 390px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: left;
+}
+
+.contenidos .centro3 .izquierda h3{
+    color: #2874a6;
+    text-align: left;
+}
+
+.contenidos .centro3 .izquierda .descripcioncon{
+    text-align: justify;
+    color: #2e86c1;
+}
+
+.imagenes img{
+    width: 320px;
+    height: 370px;
+    border: 3px solid #2e86c1;
+    margin: 20px 28px;
+  
+}
+
+.contenidos .centro3 .derecha{
+    width: 420px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: right;
+}
+
+.contenidos .centro3 .derecha h3{
+    color: #2874a6;
+    text-align: left;
+    font-size: 22px;
+}
+
+.contenidos .centro3 .derecha article{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.contenidos .centro3 .derecha article h4{
+    color: #2874a6;
+    text-align: left;
+    font-size: 15px;
+}
+
+.contenidos .centro3 .derecha article p{
+    color: #2e86c1;
+    text-align: left;
+}
+
+.leermas{
+    padding: 4px 10px;
+    background: #2874a6;
+    text-decoration: none;
+    float: left;
+    border-radius: 5px;
+    color: #fff;
+    border: 0px;
+}
