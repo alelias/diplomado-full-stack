@@ -1,0 +1,72 @@
+
+.contenidoscont{
+    background: #f2f2f2;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.contenidoscont .centro7{
+    width: 900px;
+    margin: auto;
+    border: 0px solid;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+}
+
+.contenidoscont .centro7 .categorias h3{
+    color: #2874a6;
+    text-align: center;
+    font-size: 22px;
+}
+
+.categorias{
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float:none;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid #ccc;
+	padding: 5px;
+	float: left
+}
+
+.mapa{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid #ccc;
+	padding: 5px;
+	float: right;
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+.enviar{
+	padding: 10px 20px;
+	background: #006699;
+	color: #fdfdfd;
+	font-size: 16px;
+    border-radius: 5px;
+}
+
+.datos{
+	margin-top: 30px;
+}

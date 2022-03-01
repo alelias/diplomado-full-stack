@@ -1,0 +1,425 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+/*
+#ebf5fb
+#2874a6
+#d6eaf8
+#aed6f1
+#85c1e9
+#2e86c1
+*/
+
+.header {
+  width: 100%;
+  height: 90px;
+  background: #2874a6;
+}
+
+.header .centro1 {
+  width: 1050px;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid;
+  margin: auto;
+}
+
+.header .centro1 .logo {
+  width: 360px;
+  border: 0px solid;
+  float: left;
+}
+
+.header .centro1 .logo h2,
+p {
+  color: #ebf5fb;
+}
+
+.header .centro1 .logo p {
+  margin-top: -20px;
+}
+
+.header .centro1 .menu {
+  width: 680px;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid;
+  float: right;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.header .centro1 .menu ul li {
+  display: inline-block;
+}
+
+.header .centro1 .menu ul li a {
+  color: #aed6f1;
+  text-decoration: none;
+  padding: 7px 10px;
+  margin: 0px 4px;
+  font-size: 18px;
+}
+
+.header .centro1 .menu ul li a:hover {
+  background: #2e86c1;
+}
+
+.presentacion {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #85c1e9;
+}
+
+.presentacion .centro2 {
+  width: 850px;
+  margin: auto;
+}
+
+.presentacion .centro2 .izquierda {
+  width: 300px;
+  border: 0px solid;
+  float: left;
+  margin-top: 70px;
+}
+
+.presentacion .centro2 .izquierda h2 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.presentacion .centro2 .derecha {
+  width: 490px;
+  height: auto;
+  float: right;
+}
+
+.descripcion {
+  color: #ebf5fb;
+  text-align: left;
+  font-size: 18px;
+}
+
+.img {
+  width: 470px;
+  height: 260px;
+  border: 3px solid #2e86c1;
+  margin: 20px 0px;
+  float: right;
+}
+
+.boton {
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 0;
+  margin-left: 50px;
+}
+
+.boton:hover {
+  background: #e6e6e6;
+  color: #2874a6;
+}
+
+.contenidos {
+  background: #f2f2f2;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenidos .centro3 {
+  width: 850px;
+  margin: auto;
+  border: 0px solid;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenidos .centro3 .izquierda {
+  width: 390px;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid;
+  float: left;
+}
+
+.contenidos .centro3 .izquierda h3 {
+  color: #2874a6;
+  text-align: left;
+}
+
+.contenidos .centro3 .izquierda .descripcioncon {
+  text-align: justify;
+  color: #2e86c1;
+}
+
+.imagenes img {
+  width: 320px;
+  height: 370px;
+  border: 3px solid #2e86c1;
+  margin: 20px 28px;
+}
+
+.contenidos .centro3 .derecha {
+  width: 420px;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid;
+  float: right;
+}
+
+.contenidos .centro3 .derecha h3 {
+  color: #2874a6;
+  text-align: left;
+  font-size: 22px;
+}
+
+.contenidos .centro3 .derecha article {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.contenidos .centro3 .derecha article h4 {
+  color: #2874a6;
+  text-align: left;
+  font-size: 15px;
+}
+
+.contenidos .centro3 .derecha article p {
+  color: #2e86c1;
+  text-align: left;
+}
+
+.leermas {
+  padding: 4px 10px;
+  background: #2874a6;
+  text-decoration: none;
+  float: left;
+  border-radius: 5px;
+  color: #fff;
+  border: 0px;
+}
+
+.pie {
+  width: 100%;
+  height: 90px;
+  background: #2874a6;
+}
+
+.pie .centropie {
+  width: 850px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+}
+
+.pie .centropie p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contenidosnov {
+  background: #f2f2f2;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenidosnov .centro5 {
+  width: 850px;
+  margin: auto;
+  border: 0px solid;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenidosnov .centro5 .novedad {
+  height: auto;
+  overflow: hidden;
+  border: 0px solid;
+  float: none;
+  align-items: center;
+}
+
+.contenidosnov .centro5 .novedad h3 {
+  color: #2874a6;
+  text-align: center;
+  font-size: 22px;
+}
+
+.contenidosnov .centro5 .novedad article {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.contenidosnov .centro5 .novedad article h4 {
+  color: #2874a6;
+  text-align: center;
+  font-size: 15px;
+}
+
+.contenidosnov .centro5 .novedad article p {
+  color: #2e86c1;
+  text-align: center;
+}
+
+.contenidosnov .centro5 .novedad .imagenes img {
+  width: 400px;
+  height: 370px;
+  border: 3px solid #2e86c1;
+  margin: 20px 240px;
+}
+
+.contenidosserv {
+  background: #f2f2f2;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenidosserv .centro6 {
+  width: 900px;
+  margin: auto;
+  border: 0px solid;
+  height: auto;
+  overflow: hidden;
+  align-items: center;
+}
+
+.contenidosserv .centro6 .categorias h3 {
+  color: #2874a6;
+  text-align: center;
+  font-size: 22px;
+}
+
+.categorias {
+  height: auto;
+  overflow: hidden;
+  border: 0px solid;
+  float: none;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.uno {
+  width: 280px;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid #ccc;
+  float: left;
+  padding: 5px;
+  text-align: center;
+  color: #4682b4;
+}
+
+.parrafo {
+  color: #707070;
+  text-align: justify;
+}
+.dos {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.leer-mas {
+  text-decoration: none;
+  border: 1px solid #006699;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 10px;
+}
+
+.leer-mas:hover {
+  background: #006699;
+  color: #fff;
+}
+
+.contenidoscont {
+  background: #f2f2f2;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenidoscont .centro7 {
+  width: 900px;
+  margin: auto;
+  border: 0px solid;
+  height: auto;
+  overflow: hidden;
+  align-items: center;
+}
+
+.contenidoscont .centro7 .categorias h3 {
+  color: #2874a6;
+  text-align: center;
+  font-size: 22px;
+}
+
+.categorias {
+  height: auto;
+  overflow: hidden;
+  border: 0px solid;
+  float: none;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  width: 432px;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid #ccc;
+  padding: 5px;
+  float: left;
+}
+
+.mapa {
+  width: 432px;
+  height: auto;
+  overflow: hidden;
+  border: 0px solid #ccc;
+  padding: 5px;
+  float: right;
+}
+
+input[type="text"] {
+  border: 1px solid #c1c1c1;
+  padding: 6px;
+  width: 97%;
+}
+
+textarea {
+  border: 1px solid #c1c1c1;
+  padding: 6px;
+  width: 97%;
+}
+
+.enviar {
+  padding: 10px 20px;
+  background: #006699;
+  color: #fdfdfd;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.datos {
+  margin-top: 30px;
+}
